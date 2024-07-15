@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+html, 
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 19px;
+    font-family: "Berkshire Swash", serif;
+    scroll-behavior: smooth;
+    }
+
+    hr {
+      height: 50px;
+      width: 100%;
+    background-color: #444444;
+
+    }
+
+.wrapper {
+    width: 1024px;
+    margin: auto;
+ 
+}
+
+/*
+* menu
+*/
+nav > .wrapper {
+  display: flex;
+  justify-content:space-between;
+}
+
+nav {
+    background-color: #38393a;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content:space-between;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color:  #fff;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.Logo {
+    display: flex;
+    align-items: center;
+}
+.Logo > img {
+    height: 60px;
+}
+
+/*
+* hero
+*/
+header {
+    background: url("../images/bussilver.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-shadow: 0 0;
+    letter-spacing: 2px;
+}
+.header-opacity {
+    background-color: #444444;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wrapper {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    z-index: 100;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 30px;
+  }
+  
+  .wrapper > h1 {
+    font-size: 4rem;
+    margin-bottom: 150px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    background-color: #ff0000;
+    font-family: "Berkshire Swash", serif;
+    letter-spacing: 3px;
+  }
+
+  .wrapper > p {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 10px;
+  }
+  
+.button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    font-size: 1.3em;
+    margin: 5px 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+  
+  .button:hover:hover {
+    background-color: #ffffff;
+  }
+
+  /*
+  * statistic
+  */
+  #statistic {
+    background-color: #38393a;
+    color: #fff;
+  }
+ 
+  #statistic > .wrapper > div > .foto {
+    width: 100px;
+  }
+
+
+  #statistic > .wrapper > div > .desc {
+    width: 100px;
+  }
+  #statistic > .wrapper > div {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content:center;
+  }
+
+  /*
+  * tentang saya
+  */
+
+  #tentang-saya {
+    background: url("../images/buso.jpg");
+    height: 200vh;
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  #tentang-saya > .wrapper > desc {
+    text-align: center;
+  }
+  #tentang-saya {
+    background-color: #444444;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+  }
+
+  #tentang-saya > .wrapper{
+    padding: 50px 0px 50px 0px;
+  }
+
+  #tentang-saya > .wrapper > h4 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 0px;
+    margin-bottom: 50px;
+    background-color: #ff0000;
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+    color: #fff;
+  }
+
+  #tentang-saya > .wrapper > h1{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: underline;
+  }
+  #tentang-saya > .wrapper > div {
+    width: 100%;
+    justify-content: center;
+    font-size: 20px;
+    margin: auto; 
+    color: #000000;
+    font-family: "Nunito Sans", sans-serif;
+  }
+
+  #tentang-saya > .wrapper > div > h1{
+    color: #f3f3f3;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+  }
+  #tentang-saya > .wrapper > div > .desc {
+    text-align: center;
+    opacity: 0.7;
+    font-size: 1.5rem;
+    background-color: #ffF;
+  }
+
+  /*
+  * lowongan
+  */
+
+#lowongan{
+    background: url("../images/busmerah.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#lowongan > .wrapper > h4 {
+  text-align: center;
+  font-size: 5rem;
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+#lowongan > .wrapper > h4 > span {
+  color: #ff0000;
+}
+#lowongan > .wrapper > p {
+  text-align: center;
+  color: #fff;
+  padding: 3rem;
+}
+
+#lowongan > .wrapper > div{
+  display: flex;
+  grid-template-columns: 20% 20% 20%;
+  grid-gap: 50px;
+}
+
+/*
+  * alternatif
+  */
+  #alternatif{
+    background: url("../images/busmini.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#alternatif > .wrapper > h4 {
+  text-align: center;
+  font-size: 5rem;
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+#alternatif > .wrapper > h4  {
+  color: #ff0000;
+}
+
+#alternatif > .wrapper > div {
+  display: flex;
+  padding: 90px;
+  width: 45%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  background-color: #38393a;
+  text-align: center;
+  color: #fff;
+}
+footer > div {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+/*
+* bar menu
+*/
+button.menu-bar {
+  cursor: pointer;
+  display: none;
+  background: none;
+}
+
+button.menu > i {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+button.menu-bar > i.icon-close {
+  display: none;
+}
+/*
+* 1024, 900, 768, 600, 450
+*/
+
+@media only screen and (max-width:1024px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  #statistic > .wrapper > div > p > img {
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+  }
+  #statistic > .wrapper > div > small {
+    font-size: 1rem;
+  }
+
+  #tentang-saya > .wrapper > div > .desc {
+    text-align: center;
+    opacity: 0.7;
+    font-size: 1rem;
+    background-color: #ffF;
+  }
+}
+  @media only screen and (max-width:600px) {
+
+    .wrapper > h1 {
+    text-align: center;
+    font-size: 55px;
+   }
+  #tentang-saya > .wrapper > div > h1{
+    color: #f3f3f3;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+
+  #statistic > .wrapper {
+    padding: 10px;
+    flex-direction: column;
+  }
+  #statistic > .wrapper {
+display: flex;
+  }
+
+  #lowongan > .wrapper > h4 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+  }
+
+  #lowongan > .wrapper > p {
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+  }
+
+  #alternatif > .wrapper > h4 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0px;
+    padding: 0px;
+    color: red;
+  }
+
+  button.menu-bar {
+    cursor: pointer;
+    background: none;
+    display: inline;
+  }
+  .menu {
+    display: none;
+  }
+
+  .tampil {
+    display: inline;
+  }
+  .tampil > ul {
+    flex-direction: column;
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    top: 100px;
+    left: 0;
+  }
+  .tampil > ul  li{
+  padding: 10px 20px 10px 20px;
+
+  }
+
+}
